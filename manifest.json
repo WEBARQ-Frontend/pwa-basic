@@ -3,7 +3,7 @@
     "background_color": "#6e12d0",
     "display": "standalone",
     "scope": "/",
-    "start_url": "/https://andri-wa.github.io/pwa-basic/",
+    "start_url": "./",
     "name": "PWABasic",
     "short_name": "PWABasic",
     "description": "PWABasic App",
