@@ -1,11 +1,12 @@
+let path = '/pwa-basic'; 
 let CACHE_NAME = 'my-site-cache-v1'; 
 let urlsToCache = [
-	'/', 
-	'/fallback.json', 
-	'/css/main.css',
-	'/js/jquery.min.js',
-	'/js/main.js',
-	'/images/logo.png'
+	`${path}`, 
+	`${path}/fallback.json`, 
+	`${path}/css/main.css`,
+	`${path}/js/jquery.min.js`,
+	`${path}/js/main.js`,
+	`${path}/images/logo.png`
 ];
 
 // memulai install serviceworker
