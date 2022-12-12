@@ -63,7 +63,7 @@ self.addEventListener("fetch", event => {
 				}).catch(function(){
 					return caches.match(request).then(function(response){
 						if(response) return response // kalo berhasil ada di cache return di responnya
-						return caches.match('/fallback.json') // kalo tidak ada / tidak berhasil 
+						return caches.match(`${path}/fallback.json`) // kalo tidak ada / tidak berhasil 
 					})
 				})
 			})
