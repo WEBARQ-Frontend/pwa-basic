@@ -121,7 +121,7 @@ $(document).ready(function(){
 if ('serviceWorker' in navigator) {
 	// navigator.serviceWorker.register("/serviceworker.js");
 	window.addEventListener('load', function() {
-		navigator.serviceWorker.register("/https://andri-wa.github.io/pwa-basic/serviceworker.js").then(function(registration) {
+		navigator.serviceWorker.register("/pwa-basic/serviceworker.js").then(function(registration) {
 			// Registration was successful
 			console.log('Serviceworker berhasil dengan scope', registration.scope); 
 		}, function(err){

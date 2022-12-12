@@ -1,4 +1,4 @@
-let path = '/https://andri-wa.github.io/pwa-basic'; 
+let path = '/pwa-basic'; 
 let CACHE_NAME = 'my-site-cache-v1'; 
 let urlsToCache = [
 	`${path}`, 
